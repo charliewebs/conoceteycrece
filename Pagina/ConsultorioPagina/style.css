@@ -1,0 +1,224 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+/* Estilos para la portada */
+.foto-portada {
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 20px 20px;
+  background-color: #1f618d;
+}
+
+.foto-portada h1 {
+  font-size: 2em;
+  margin: 0;
+  color: #fff;
+}
+
+.foto-portada p {
+  font-size: 2em;
+  margin: 0px 0;
+  color: #fff;
+}
+
+.foto-portada a {
+  display: inline-block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  color: #fff;
+  text-decoration: none;
+}
+
+.foto-portada a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+  height: 50px;
+  background-color: #333;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 0 10px;
+}
+
+.navbar a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Estilos para el contenido */
+#contenido {
+  padding: 50px 20px;
+}
+
+#contenido h2 {
+  font-size: 2em;
+  margin: 0 0 20px 0;
+}
+
+#contenido p {
+  font-size: 1em;
+  margin: 0 0 10px 0;
+}
+
+#contenido img {
+  width: 100%;
+  margin: 10px 0;
+}
+
+#contenido ul {
+  list-style: none;
+  padding: 0;
+}
+
+#contenido ul li {
+  margin: 10px 0;
+}
+
+/* Estilos para el pie de página */
+footer {
+  height: 150px; /* Ajusta la altura según sea necesario */
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  flex-direction: column; /* Cambia la dirección del flex a columna */
+  justify-content: space-around;
+  align-items: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px; /* Agrega un margen superior para separar los iconos del texto */
+}
+
+.social-icons a {
+  margin: 0 10px;
+}
+
+.social-icons a img {
+  width: 50px;
+  height: 50px;
+}
+
+footer p {
+  margin: 10px 0 0; /* Ajusta el margen del párrafo según sea necesario */
+  font-size: 1.2em;
+  text-align: center; /* Centra el texto */
+}
+
+/* Estilos responsive */
+@media (max-width: 768px) {
+  .foto-portada h1 {
+    font-size: 1.5em;
+  }
+
+  .foto-portada p {
+    font-size: 1em;
+  }
+
+  .navbar {
+    height: 40px;
+  }
+
+  .navbar a {
+    font-size: 14px;
+  }
+
+  #contenido h2 {
+    font-size: 1.5em;
+  }
+
+  #contenido p {
+    font-size: 0.8em;
+  }
+
+  footer {
+    height: 80px;
+  }
+
+  footer p {
+    font-size: 0.8em;
+  }
+}
+
+/* Secciones específicas (puedes modificar estos estilos según el contenido de cada sección) */
+.contenido-index {
+  background-color: #f0f8ff;
+}
+
+.contenido-servicio {
+  background-color: #f0f8ff;
+}
+
+.contenido-contacto {
+  background-color: #f0f8ff;
+}
+
+.foto-portada img[src="iconos/imagen-logo.png"] {
+  width: 100px;
+  height: 100px; /* Ajusta la altura según sea necesario */
+  margin-left: 10px; /* Ajusta el margen según sea necesario */
+  vertical-align: middle; /* Alinea verticalmente la imagen */
+}
+
+#contenido {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.imagen-container {
+  width: 48%; /* Puedes ajustar este valor según tus necesidades */
+  margin-bottom: 20px;
+}
+
+.imagen-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* Un borde redondeado para las imágenes, puedes ajustar esto según tus preferencias */
+}
+
+/* Estilos adicionales para las imágenes debajo de "Licenciada Cynthia Yata" y "Licenciada Yelitza Mango" */
+.imagen-container div {
+  display: flex;
+  align-items: center;
+}
+
+.imagen-container div img {
+  max-width: 50px; /* Ajusta el ancho máximo según tus necesidades */
+  height: auto;
+  margin-right: 10px; /* Ajusta el margen derecho según tus necesidades */
+}
+
+.imagen-container div span {
+  white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+}
+
+.imagen-container a span {
+  margin-right: 10px; /* Puedes ajustar el valor según tus necesidades */
+}
+
+  
+
+  
+
+
+
+
